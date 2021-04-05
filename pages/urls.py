@@ -19,7 +19,7 @@ from .import views
 
 
 urlpatterns = [
-    path('', views.index1 , name='index' ),
-    path('about', views.about , name='about' ),
+    path('index1.htm', views.index1 , name='index1.htm' ),
+    path('about.htm', views.about , name='about.htm' ),
 ]
 
